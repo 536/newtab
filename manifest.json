@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "version": "0.1.0",
+    "name": "NewTab",
+    "short_name": "NewTab",
+    "description": "Simple new tab.",
+    "icons": {
+        "128": "assets/icon_128.png",
+        "48": "assets/icon_48.png",
+        "16": "assets/icon_16.png"
+    },
+    "permissions": [],
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    }
+}
